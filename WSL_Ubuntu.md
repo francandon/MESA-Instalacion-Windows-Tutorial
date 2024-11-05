@@ -66,11 +66,11 @@ wsl --set-default-version 2
 ### **2. Buscar Ubuntu**
 
 - En la barra de búsqueda, escribe **Ubuntu**.
-- Selecciona la versión que prefieras (por ejemplo, **Ubuntu 20.04 LTS**).
+- Procura instalar la última versión.
 
 ### **3. Instalar Ubuntu**
 
-- Haz clic en **Obtener** o **Instalar**.
+- Haz clic en **Instalar**.
 - Espera a que se complete la instalación.
 
 ---
@@ -83,7 +83,7 @@ wsl --set-default-version 2
 
 ### **2. Configurar tu Nombre de Usuario y Contraseña de Linux**
 
-- Cuando se te solicite, introduce un **nombre de usuario** (por ejemplo, `estudiante`).
+- Una vez hayas entrado a Ubuntu, introduce un **nombre de usuario** (por ejemplo, `fran`).
 - Introduce una **contraseña** (los caracteres no aparecerán mientras escribes).
 
 ---
@@ -153,10 +153,12 @@ cd /mnt/c/
 ````plaintext
 \\wsl$\Ubuntu\home\TuNombreDeUsuarioLinux
 ````
+### **3. La forma más sencilla**
+Accede al Ecplorador de archivos. Abajo del todo te debería aparecer un pingüinito, clicka en él y te debería aparecer la carpeta de Ubuntu. Si vas a home/usuario/ ahí se enceuntra tu espacio de trabajo.
 
 ---
 
-## **Conclusión**
+## **Finalizado**
 
 Has instalado exitosamente Ubuntu en tu computadora Windows utilizando WSL. Ahora puedes ejecutar comandos de Linux, instalar paquetes y desarrollar aplicaciones en un entorno Linux directamente desde Windows.
 
@@ -169,31 +171,3 @@ Has instalado exitosamente Ubuntu en tu computadora Windows utilizando WSL. Ahor
 
 ---
 
-## **Solución de Problemas**
-
-### **Problema: Los Comandos de WSL No Son Reconocidos**
-
-- Asegúrate de ejecutar PowerShell como administrador.
-- Verifica que tu versión de Windows sea compatible con WSL 2.
-
-### **Problema: Errores Durante la Instalación**
-
-- Comprueba tu conexión a Internet.
-- Asegúrate de tener instaladas todas las actualizaciones de Windows.
-
----
-
-## **Consejos para un Uso Efectivo**
-
-- Actualiza regularmente tu entorno Linux usando:
-
-````bash
-sudo apt update && sudo apt upgrade
-````
-
-- Personaliza tu terminal con herramientas como **Windows Terminal** para una mejor experiencia.
-- Explora la integración de flujos de trabajo entre Windows y Linux para desarrollo.
-
----
-
-**Siguiendo esta guía, tus estudiantes deberían tener una experiencia fluida al instalar y comenzar a usar Ubuntu en WSL.**
