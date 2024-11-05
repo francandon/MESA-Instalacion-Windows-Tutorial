@@ -155,7 +155,7 @@ cd /mnt/c/
 ````
 ### **3. La forma más sencilla**
 Accede al Ecplorador de archivos. Abajo del todo te debería aparecer un pingüinito, clicka en él y te debería aparecer la carpeta de Ubuntu. Si vas a home/usuario/ ahí se enceuntra tu espacio de trabajo.
-
+![ubuntu1.png](https://github.com/francandon/Windows-MESA-Installation/blob/main/Imagenes/ubuntu1.png)
 ---
 
 ## **Finalizado**
