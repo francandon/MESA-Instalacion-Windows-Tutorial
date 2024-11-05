@@ -175,3 +175,33 @@ Si no se descarga porque Google detecta que la conexión no es segura, accede al
 Una vez lo hayas descargado, tendrás que mover este archivo a tu Ubuntu. Para ello, simplemente abre el explorador de archivos y dirígete a donde aparece Linux:
 ![ubuntu1.png](https://github.com/francandon/Windows-MESA-Installation/blob/main/Imagenes/ubuntu1.png)
 
+Finalmente haz click en la carpeta Ubuntu, luego home, y luego a la carpeta de tu usuario. Es allí donde tendrás que mover el archivo que descargaste y que se encuentra en descarga. Para ello simplemente haz Ctrl+C al archivo y Ctr+V en la carpeta del Ubuntu. 
+
+Ahora hay que descomprimirlo. Para ello escribe en el terminal: 
+```
+tar -xvfz mesasdk-x86_64-linux-24.7.1.tar.gz -C ~/ 
+```
+
+Una vez descomprimido tienes que definir varias variables de entorno, para ello escribe en el terminal: 
+```
+export MESASDK_ROOT=~/mesasdk
+source $MESASDK_ROOT/bin/mesasdk_init.sh
+``` 
+Checkea que funcionó haciendo
+```
+gfortran --version
+```
+
+Estas variables deberías cargarlas cada vez que abras Ubuntu. Un pequeño truco es modificar el archivo .bashrc para que se cargue automáticamente. Para ello haz: 
+```
+code .bashrc
+```
+y se debería abrir VSCode de forma que puedas modificar el archivo. Copia y pega al final del todo lo de antes: 
+```
+export MESASDK_ROOT=~/mesasdk
+source $MESASDK_ROOT/bin/mesasdk_init.sh
+```
+
+Si todo et ha funcionado hasta ahora, ya podemos empezar con la instalación
+
+## Instalando MESA
