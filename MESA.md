@@ -173,4 +173,4 @@ http://user.astro.wisc.edu/~townsend/resource/download/mesasdk/mesasdk-x86_64-li
 Si no se descarga porque Google detecta que la conexión no es segura, accede al historial de descargas, clicka en los tres puntitos del archivo y dale a descargar archivo no seguro. 
 
 Una vez lo hayas descargado, tendrás que mover este archivo a tu Ubuntu. Para ello, simplemente abre el explorador de archivos y dirígete a donde aparece Linux:
-![[ubuntu1.png]]
+![[![ubuntu1.png](https://github.com/francandon/Windows-MESA-Installation/blob/main/ubuntu1.png)]]
