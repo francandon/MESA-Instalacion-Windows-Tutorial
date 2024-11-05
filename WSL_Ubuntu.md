@@ -9,14 +9,6 @@ El Subsistema de Windows para Linux (WSL) te permite ejecutar un entorno Linux d
 
 ---
 
-## **Requisitos Previos**
-
-- **Sistema Operativo:** Windows 10 versión 2004 o superior, o Windows 11.
-- **Privilegios de Usuario:** Acceso de administrador para habilitar características del sistema.
-- **Conexión a Internet:** Para descargar los componentes necesarios.
-
----
-
 ## **Paso 1: Habilitar el Subsistema de Windows para Linux**
 
 ### **1. Abrir PowerShell como Administrador**
