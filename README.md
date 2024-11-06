@@ -11,3 +11,9 @@ En este repositorio se encuentra el paso por paso para instalar MESA Astrophysic
     ```
 
     Si necesitas ayuda de cómo usar VS Code, busca un tutorial en [YouTube](https://www.youtube.com/watch?v=CxF3ykWP1H4).
+
+## Tutorial
+
+1. En primer lugar, deberás instalar Ubuntu WSL en tu windows, para ello accede aquí --> **[WSL_Ubuntu.md](WSL_Ubuntu.md)**
+
+2. Una vez lo tengas podrás empezar la instalación --> **[MESA.md](MESA.md)**
