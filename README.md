@@ -5,8 +5,6 @@
 
 Bienvenido al repositorio que contiene una guía paso a paso para **instalar MESA Astrophysics en Windows**. Este proceso implica la instalación de Ubuntu a través de WSL (Windows Subsystem for Linux) y posteriormente la instalación de MESA. Sigue cuidadosamente las instrucciones para garantizar una instalación exitosa.
 
-## 📋 Tabla de Contenidos
-
 1. [Introducción](#introducción)
 2. [Requisitos Previos](#requisitos-previos)
 3. [Tutorial de Instalación](#tutorial-de-instalación)
@@ -18,7 +16,7 @@ Bienvenido al repositorio que contiene una guía paso a paso para **instalar MES
 
 ---
 
-## 📝 Introducción
+## Introducción
 
 Este repositorio proporciona una guía detallada para instalar **MESA Astrophysics** en sistemas operativos Windows. El proceso se divide en dos partes principales:
 
@@ -27,7 +25,7 @@ Este repositorio proporciona una guía detallada para instalar **MESA Astrophysi
 
 ---
 
-## ✅ Requisitos Previos
+## Requisitos Previos
 
 Antes de comenzar, asegúrate de tener lo siguiente:
 
@@ -37,7 +35,7 @@ Antes de comenzar, asegúrate de tener lo siguiente:
 
 ---
 
-## 🛠️ Tutorial de Instalación
+## Tutorial de Instalación
 
 ### 1. Instalar Ubuntu WSL
 
@@ -53,7 +51,7 @@ Una vez que Ubuntu esté instalado y configurado, procederemos con la instalaci�
 
 ---
 
-## 💡 Consejos Importantes
+## Consejos Importantes
 
 1. **Ten mucha paciencia:**  
    Sigue los pasos uno a uno, sin saltarte ninguno de ellos. Esto es crucial para evitar fallos en la instalación final que podrían obligarte a empezar de nuevo.
@@ -76,7 +74,7 @@ Una vez que Ubuntu esté instalado y configurado, procederemos con la instalaci�
 
 ---
 
-## 📚 Recursos Adicionales
+##  Recursos Adicionales
 
 - **Documentación Oficial de MESA Astrophysics:**  
   [https://mesa.sourceforge.io/documentation.html](https://mesa.sourceforge.io/documentation.html)
@@ -89,7 +87,7 @@ Una vez que Ubuntu esté instalado y configurado, procederemos con la instalaci�
 
 ---
 
-## 📞 Contacto y Soporte
+## Contacto
 
 Si encuentras algún problema durante la instalación o tienes preguntas adicionales, puedes:
 
