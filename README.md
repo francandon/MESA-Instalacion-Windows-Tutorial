@@ -95,7 +95,7 @@ Si encuentras algún problema durante la instalación o tienes preguntas adicion
   [Abrir un Issue](https://github.com/francandon/Windows-MESA-Installation/issues)
 
 - **Contactarme directamente:**  
-  Puedes enviarme un correo electrónico a [tu-email@example.com](mailto:francandon@unizar.es) o buscarme en [LinkedIn](https://www.linkedin.com/in/francandon/).
+  Puedes enviarme un correo electrónico a [francandon@unizar.er](mailto:francandon@unizar.es).
 
 ---
 
