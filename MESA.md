@@ -205,3 +205,71 @@ source $MESASDK_ROOT/bin/mesasdk_init.sh
 Si todo et ha funcionado hasta ahora, ya podemos empezar con la instalación
 
 ## Instalando MESA
+
+### Descarga
+Para empezar la instalación de MESA deberás descargar el código fuente. Hay dos formas:
+1. Vas a la siguiente [página web](https://zenodo.org/records/13353788), descargas el archivo y lo mueves a Ubuntu mediante el explorador de archivos. 
+2. Utilizas el siguiente comando dentro de la terminal de Ubuntu:
+```
+wget https://zenodo.org/records/13353788/files/mesa-24.08.1.zip?download=1
+```
+
+La segunda forma es bastante más lenta pero no tienes que estar moviendo los archivos entre carpetas.
+
+Finalmente, toca descomprimr la carpeta utilizando gunzip:
+```
+unzip mesa-24.08.1.zip
+```
+si no tienes descargadp gunzip, simplemente instalalo con
+```
+sudo apt install unzip
+```
+### Instalación
+
+Ahora toca definir nuevas variables de entorno. Para ello, igual que hicimos antes, hay que abrir el archivo .bashrc:
+```
+code bashrc
+```
+y añadir las siguientes variables de entorno al final del archivo:
+
+```
+# set MESA_DIR to be the directory to which you downloaded MESA
+# The directory shown is only an example and must be modified for your particular system.
+export MESA_DIR=/home/fran/mesa-r21.12.1
+
+# set OMP_NUM_THREADS to be the number of cores on your machine
+export OMP_NUM_THREADS=6
+
+# add shmesa (the MESA command line tool) to your PATH
+export PATH=$PATH:$MESA_DIR/scripts/shmesa
+``` 
+
+Es importante que ajustes MESA_DIR al directorio donde se encuentra el archivo: si no sabes cuál es haz en la terminal:
+```
+cd mmesa-24.08.1
+pwd
+```
+y te aparecerá. Por otro lado ajusta el número de núcleos de tu ordenador.
+
+**Finalmente** toca compilar el código, para ello escribe en el terminal (tendrás que cerrar y abrir Ubuntu después de definir las nuevas variables de entorno):
+
+```
+cd
+cd $MESA_DIR
+./install
+```
+
+y debería aparecerte esto:
+```
+************************************************
+************************************************
+************************************************
+
+MESA installation was successful
+
+************************************************
+************************************************
+************************************************
+```
+
+**Enhorabuena haas instalado MESA!!**
